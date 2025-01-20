@@ -6,4 +6,15 @@
 
   body {
     height: 100vh;
+    font-family: 'Be Vietnam Pro';
+    /* background-color: #12111F; */
+  }
+
+  #header{
+    display: flex;
+  }
+
+  #header h1{
+    color: #CDD5E0;
+    font-size: 3rem;
   }

@@ -1,20 +1,80 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Be Vietnam Pro';
+}
 
-  body {
-    height: 100vh;
-    font-family: 'Be Vietnam Pro';
-    /* background-color: #12111F; */
-  }
+body {
+  min-height: 100vh;
+  background-color: #7a7899;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
 
-  #header{
-    display: flex;
-  }
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/resources/faq-title-bg.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+}
 
-  #header h1{
-    color: #CDD5E0;
-    font-size: 3rem;
-  }
+#header h1 {
+  color: #CDD5E0;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#center-text {
+  text-align: center;
+}
+
+#button-group {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+button {
+  padding: 8px 20px;
+  border: none;
+  border-radius: 20px;
+}
+
+.button-on {
+  background-color: #CDD5E0;
+}
+
+#card-group {
+  width: 800px;
+}
+
+.card {
+  color: #CDD5E0;
+  padding:20px 32px;
+  margin:20px;
+  border-radius:15px;
+}
+
+.card h3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.open{
+  background-color: #82868b;
+  padding:28px 32px;
+}
+.open h3 {
+  color: white;
+  padding-bottom: 8px;
+}
+
+.open img {
+  transform: rotate(180deg);
+}
